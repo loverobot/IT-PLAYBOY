@@ -50,7 +50,14 @@
         <h1>内容测试</h1>
         <p>这里是在网上编辑的内容。</p>
     </header>
-    
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script scr="js/bootstrap.min.js"></script>
+    <script>
+	    $('#mynav a').click(function(e) {
+	        e.preventDefault();
+	        $(this).tab('show');
+	    });
+    </script>
 </body>
 
 </html>

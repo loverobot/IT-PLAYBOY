@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
+
 <body>
-	<h1>欢迎来到我的世界</h1>
-	<p>我喜欢这种工作方式，github 太好用了。</p>
+    <nav class="nav-bar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">MY LOGO</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav" id="mynav">
+                    <li class="active"><a href="#">Link</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+                <form action="" class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="搜索内容">
+                    </div>
+                    <button type="button" class="btn btn-default">Search</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Link<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="http://www.baidu.com">下拉列表1</a></li>
+                            <li><a href="#">下拉列表2</a></li>
+                            <li><a href="#">下拉列表3</a></li>
+                            <li><a href="#">下拉列表4</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </body>
+
 </html>

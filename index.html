@@ -5,13 +5,12 @@
     <title>Document</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/angular.min.js"></script>
-    <script src="js/angular-animate.min.js"></script>
-    <script src="js/angular-route.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
 </head>
 
 <body ng-app="app">
-    <nav class="nav-bar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="nav-bar navbar-inverse" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -48,27 +47,11 @@
             </div>
         </div>
     </nav>
-    <!-- <header>
-        <h1>内容测试</h1>
-        <p>这里是在网上编辑的内容。</p>
-    </header> -->
     <header>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div ng-view></div>
-        <div ng-include="$route.current.about"></div>
+        This is page info.
     </header>
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script>
-		    /*$('#mynav a').click(function(e) {
-		        e.preventDefault();
-		        $(this).tab('show');
-		    });*/
-    </script>
     <script src="js/app.js"></script>
 </body>
 
